@@ -29,8 +29,7 @@ section, .l-root,
 .head.notfixed, .main-container,
 #app > div, .btm-nav > a,
 body.dark_mode, body.light_mode,
-text-div > textarea,
-[class^="mantine-"] {
+text-div > textarea {
     background-color: transparent !important;
     background: none !important;
     border: none !important;
