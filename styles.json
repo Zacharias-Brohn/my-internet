@@ -2237,10 +2237,10 @@
       "no footer": "footer{\n  display: none !important;\n}"
     },
     "civitai.com.css": {
-      "civitai-transparency": "html,\nbody,\nnav,\n#nav,\n.nav,\nnavbar,\n.navbar,\n#navbar,\nheader,\n#header,\n.header,\napp,\n#app,\nsection,\n#__next,\n#root,\n.app,\n.app-root, #wrapper,\nbody[data-theme=\"dark\"], body[data-theme=\"light\"],\n#pass-sidebar, .side-bar,\n#main, .sidebar,\nmain,\n#content, #cu-identity,\nsection, .l-root,\n#__next, .landing-hero,\n#navigation-wrapper,\n#global-navbar,\n.head.notfixed, .main-container,\n#app > div, .btm-nav > a,\nbody.dark_mode, body.light_mode,\ntext-div > textarea,\n[class^=\"mantine-\"] {\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n  transition: background-color 0.5s ease-in-out, background 0.5s ease-in-out, border 0.5s ease-in-out, box-shadow 0.5s ease-in-out !important;\n}",
-      "civitai-border-mods": "[class^=\"mantine-Button\"],[class^=\"mantine-Badge\"] {\n    border: 1px solid gray !important;\n}",
-      "darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
-      "no footer": "footer{\n  display: none !important;\n}"
+      "civitai-transparency": "html,\nbody,\nnav,\n#nav,\n.nav,\nnavbar,\n.navbar,\n#navbar,\nheader,\n#header,\n.header,\napp,\n#app,\nsection,\n#__next,\n#root,\n.app,\n.app-root, #wrapper,\nbody[data-theme=\"dark\"], body[data-theme=\"light\"],\n#pass-sidebar, .side-bar,\n#main, .sidebar,\nmain,\n#content, #cu-identity,\nsection, .l-root,\n#__next, .landing-hero,\n#navigation-wrapper,\n#global-navbar,\n.head.notfixed, .main-container,\n#app > div, .btm-nav > a,\nbody.dark_mode, body.light_mode,\ntext-div > textarea,\n[class^=\"mantine-\"] {\n    background-color: transparent !important;\n    background: none !important;\n    border: none !important;\n    box-shadow: none !important;\n    transition: background-color 0.5s ease-in-out,\n    background 0.5s ease-in-out,\n    border 0.5s ease-in-out,\n    box-shadow 0.5s ease-in-out !important;\n}",
+      "civitai-border-mods": "[class^=\"mantine-Button\"],\n[class^=\"mantine-Badge\"],\n[class^=\"mantine-UnstyledButton\"] {\n    border: 1px solid gray !important;\n    border-radius: 4px !important;\n}",
+      "darkreader": ":root{\n    --darkreader-background-ffffff: transparent !important;\n}",
+      "no footer": "footer{\n    display: none !important;\n}"
     }
   }
 }
