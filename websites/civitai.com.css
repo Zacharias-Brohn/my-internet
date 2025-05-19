@@ -30,7 +30,7 @@ section, .l-root,
 #app > div, .btm-nav > a,
 body.dark_mode, body.light_mode,
 text-div > textarea,
-[class^="mantine-"] {
+[class^="mantine-Table"] {
   background-color: transparent !important;
   background: none !important;
   border: none !important;
