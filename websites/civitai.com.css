@@ -31,24 +31,30 @@ section, .l-root,
 body.dark_mode, body.light_mode,
 text-div > textarea,
 [class^="mantine-"] {
-  background-color: transparent !important;
-  background: none !important;
-  border: none !important;
-  box-shadow: none !important;
-  transition: background-color 0.5s ease-in-out, background 0.5s ease-in-out, border 0.5s ease-in-out, box-shadow 0.5s ease-in-out !important;
+    background-color: transparent !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition: background-color 0.5s ease-in-out,
+    background 0.5s ease-in-out,
+    border 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out !important;
 }
 
 /* civitai-border-mods */
-[class^="mantine-Button"],[class^="mantine-Badge"] {
+[class^="mantine-Button"],
+[class^="mantine-Badge"],
+[class^="mantine-UnstyledButton"] {
     border: 1px solid gray !important;
+    border-radius: 4px !important;
 }
 
 /* darkreader */
 :root{
-  --darkreader-background-ffffff: transparent !important;
+    --darkreader-background-ffffff: transparent !important;
 }
 
 /* no footer */
 footer{
-  display: none !important;
+    display: none !important;
 }
